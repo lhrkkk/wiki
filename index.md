@@ -15,6 +15,9 @@ More details on installing and configurating gitit are available
 in the [Gitit User’s Guide]().
 
 
+first you should view  [introduction of labkit]
+
+
 labkit\_ppt
 ===========
 
