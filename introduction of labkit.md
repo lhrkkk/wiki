@@ -179,7 +179,7 @@ labkit的配置文件labkit.ini管理labkit自身的相关事宜.
 
 输入分两部分, 一部分是算法描述, 一部分是参数配置.
 
-```yaml
+```
 # rule:  # :分割的是字典, 没有参数的键值会被忽略, 可以用来起名字
 #   - list:   # -开头的是列表
 #       - 列表就是任务, 每一个列表会自动执行
@@ -624,7 +624,8 @@ INNER_RESIDUE_BONDING_TEMPLATE:
 
 ----
 
-2. 完整开发流程, 要做的步骤 ------------------------------------------------------
+2. 完整开发流程, 要做的步骤
+-----------------------------
 
 ### 开发标准
 
@@ -699,6 +700,29 @@ markdown是一种标记语言.
 
 ### 编写一个模块
 
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from general import gs
+log=gs.get_logger(__name__,debug=False)
+
+def test():
+    pass
+
+
+def run(args):
+    return True
+
+def selfrun(args={}):
+    import labkit.init_gs
+    from general.interpreter.loader import callrun
+    callrun(__file__,args)
+if __name__ == '__main__':
+    # test()
+    selfrun()
+
+```
 ----
 
 #### run
