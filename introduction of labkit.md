@@ -685,8 +685,8 @@ markdown是一种标记语言.
 - item1
 - item2
 
-!(显示的名字)[链接]
-()[wiki名]
+!(百度)[www.baidu.com]
+()[各种计算方法比较]
 
 
 
