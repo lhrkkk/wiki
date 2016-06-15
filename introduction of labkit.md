@@ -719,14 +719,14 @@ todo-list, 团队管理有很多, tower, Teambition, Worktile, Fengche.co, 瀑�
 
 #### 任务计划和分发, 共享文档: quip
 
-![](images/quip截图1.jpg)
-![](images/quip截图2.jpg)
+![](images/quip截图1.png)
+![](images/quip截图2.png)
 
 ----
 
 #### 即时通讯: slack
 
-![](images/slack截图.jpg)
+![](images/slack截图.png)
 
 ----
 
