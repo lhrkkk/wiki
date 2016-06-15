@@ -4,15 +4,6 @@ format: Markdown
 
 # Welcome to labkit!
 
-This is the front page of labkit's wiki.  You can edit this
-page by clicking on the "edit" tab at the top of the screen.
-For instructions on how to make a link to another wiki page, see [the
-Help page](Help#wiki-links). To create a new wiki page, just create a
-link to it and follow the link.
+欢迎来到实验室的wiki, 点击edit编辑这个页面, 正文使用markdown格式编写([markdown语法]()). 直接新建词条并点击即可新建词条.
 
-Help is always available through the "Help" link in the sidebar.
-More details on installing and configurating gitit are available
-in the [Gitit User’s Guide]().
-
-
-first you should view  [introduction of labkit]()
+今天的ppt是  [introduction of labkit]()
