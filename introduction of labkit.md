@@ -643,10 +643,10 @@ INNER_RESIDUE_BONDING_TEMPLATE:
 ----
 
 #### labkit的版本控制流程
-1. 下载并新建分支. gy clone, gy dev
-2. 修改, 提交到本地分支.  gy commit
-3. 拉取主分支最新版本, 合并到本地分支. gy sync
-4. 推送到主分支. gy push; pull-request
+1. 下载并新建分支. `gy clone, gy dev`
+2. 修改, 提交到本地分支.  `gy commit`
+3. 拉取主分支最新版本, 合并到本地分支. `gy sync`
+4. 推送到主分支. `gy push; pull-request`
 
 ```
 master 0-->1-->2-->3-\ ------>merged  
@@ -702,7 +702,14 @@ if __name__ == '__main__':
 
 调用模块的时候, 就会调用run函数. 作用于向量的每一个元素.
 
-调试执行之后, 编写文档, 并提交
+调试执行之后, 编写文档,
+
+### 提交
+完成修改后,
+
+1. 提交到本地 `gy commit`
+2. 拉合并最新的主分支  `gy sync`
+3. 提交到主分支 `gy push`
 
 <!-- ### 编写文档
 
