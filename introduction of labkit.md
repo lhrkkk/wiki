@@ -685,9 +685,11 @@ markdown是一种标记语言.
 - item1
 - item2
 
-![百度](www.baidu.com)
+[百度](www.baidu.com)
 
-![](各种计算方法比较)
+[](各种计算方法比较)
+
+
 
 
 
