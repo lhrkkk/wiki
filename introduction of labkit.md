@@ -755,7 +755,9 @@ if __name__ == '__main__':
 #### 代码仓库: git
 
 ![](images/github截图.png)
+
 ----
+
 ![](images/gitlab截图.png)
 
 ----
@@ -788,7 +790,9 @@ todo-list, 团队管理有很多, tower, Teambition, Worktile, Fengche.co, 瀑�
 - 可以\@人, \@文档
 
 ![](images/quip截图1.png)
+
 ----
+
 ![](images/quip截图2.png)
 
 ----
