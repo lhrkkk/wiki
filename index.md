@@ -9,6 +9,8 @@ format: Markdown
 
 ## labkit的资料请参考以下文档
 
+labkit包括一个运行于linux系统上, 使用命令行方式的计算框架, 以及一个远程访问和查询的前端网页
+
 ### labkit的使用
 首先[下载labkit的代码](https://github.com/lhrkkk/labkit), 阅读以下文档, 开始labkit的使用.
 
