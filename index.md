@@ -7,7 +7,7 @@ format: Markdown
 欢迎来到实验室的wiki, 点击edit编辑这个页面, 正文使用[markdown语法]()书写. 直接新建词条并点击即可新建词条.
 
 
-labkit的入门请参考以下文档
+# labkit的资料请参考以下文档
 
 请从[这里](https://github.com/lhrkkk/labkit)下载labkit的代码, 开始labkit的使用.
 
@@ -15,7 +15,7 @@ labkit的入门请参考以下文档
 
 [labkit命令行使用指南]()
 
-[labkit的前端网站](http://localhost:3450)  提供labkit的介绍, 网页操控.
+[labkit的前端网站](http://localhost:3450)  
 
 [labkit的开发指南]()
 
