@@ -9,6 +9,7 @@ format: Markdown
 
 # labkit的资料请参考以下文档
 
+#### labkit的使用
 首先[下载labkit的代码](https://github.com/lhrkkk/labkit), 阅读以下文档, 开始labkit的使用.
 
 [labkit介绍]()
@@ -17,7 +18,7 @@ format: Markdown
 
 [labkit的前端网站](http://localhost:3450)  
 
-想要进一步了解和开发labkit, 请阅读:
+#### 想要进一步了解和开发labkit, 请阅读:
 
 [labkit的开发指南]()
 
