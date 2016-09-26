@@ -17,6 +17,8 @@ format: Markdown
 
 [labkit的前端网站](http://localhost:3450)  
 
+想要进一步了解和开发labkit, 请阅读:
+
 [labkit的开发指南]()
 
 [labkit参考手册](http://labkit.readthedocs.io/en/latest/index.html)
