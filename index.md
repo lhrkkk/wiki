@@ -11,7 +11,7 @@ labkit的入门请参考以下文档
 
 请从[这里](https://github.com/lhrkkk/labkit)下载labkit的代码, 开始labkit的使用.
 
-[labkit的介绍]()
+[labkit介绍]()
 
 [labkit命令行使用指南]()
 
