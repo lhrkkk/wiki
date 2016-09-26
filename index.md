@@ -18,6 +18,8 @@ format: Markdown
 
 [labkit的前端网站](http://localhost:3450)  
 
+[实验室数据库databank](http://localhost)
+
 ### 想要进一步了解和开发labkit, 请阅读:
 
 [labkit的开发指南]()
