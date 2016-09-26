@@ -11,16 +11,17 @@ labkit的入门请参考以下文档
 
 请从[这里](https://github.com/lhrkkk/labkit)下载labkit的代码, 开始labkit的使用.
 
-[labkit的介绍]
+[labkit的介绍]()
 
 [labkit命令行使用指南]()
 
 [labkit的前端网站](http://localhost:3450)  提供labkit的介绍, 网页操控.
 
-[labkit的开发指南]
+[labkit的开发指南]()
 
 [labkit参考手册](http://labkit.readthedocs.io/en/latest/index.html)
 
+----
 
 以前的一些文档备用:
 
