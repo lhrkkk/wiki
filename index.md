@@ -9,7 +9,7 @@ format: Markdown
 
 # labkit的资料请参考以下文档
 
-请从[这里](https://github.com/lhrkkk/labkit)下载labkit的代码, 开始labkit的使用.
+首先[下载labkit的代码](https://github.com/lhrkkk/labkit), 阅读以下文档, 开始labkit的使用.
 
 [labkit介绍]()
 
