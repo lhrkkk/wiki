@@ -12,7 +12,7 @@ format: Markdown
 labkit包括一个在linux系统上, 使用命令行方式运行的计算框架, 以及一个远程访问可供查询和调度的前端网页
 
 ### labkit的使用
-首先到[labkit的代码仓库](https://github.com/lhrkkk/labkit), 用`git clone --recursive git@git.ustclug.org:lhrkkk/labkit.git` 命令下载labkit
+首先到[labkit的代码仓库](https://git.ustclug.org/lhrkkk/labkit), 用`git clone --recursive git@git.ustclug.org:lhrkkk/labkit.git` 命令下载labkit
 
 阅读以下文档, 开始labkit的使用.
 
