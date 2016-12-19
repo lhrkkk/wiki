@@ -16,49 +16,55 @@ ms: molecular simulation 分子模拟模块, 目前包括构型操作, 量化计
 
 workplace
 
-### 安装
-运行命令
-, 得到目录结构, 程序文件如下,
+### 安装labkit
+从零开始安装labkit.
+Linux命令行下, 复制并运行命令 `curl -L  https://git.ustclug.org/lhrkkk/labkit/raw/master/install_labkit_from_zero.sh | bash` 即可下载并安装labkit
 
+得到目录结构, 程序文件如下
 
+在workplace里面工作, 配置文件在workplace/config里面. 配置: 配置服务器地址等.
 
- 在workplace里面工作, 配置文件在workplace/config里面. 配置: 配置服务器地址等.
-
+<!--
 ```
 cd labkit & ./install.sh
-```
+``` -->
 
-
-启动labkit的网站
+<!-- 启动labkit的网站
 ```
 ./show.sh
-```
+``` -->
 
 ### 运行
 
 终端下面敲 `labkit --help` 可以获得帮助
+
+<!--
 ```
 前端上启动 labkit front
 节点上启动 labkit worker
 ```
 启动labkit的服务端和工作端.
 
-前端上运行`labkit pbs_start`同时启动front和worker并且通过pbs管理.
+前端上运行`labkit pbs_start`同时启动front和worker并且通过pbs管理. -->
 
-labkit help
-labkit service  xxx start/stop
-labkit new_project
-labkit calc_project
-labkit new_module
+labkit有如下命令:
+
+|命令 |功能|
+| --------   | -----:   | :----: |
+|labkit help |获得帮助|
+|labkit service  xxx start/stop | 启动和停止labkit的服务 |
+|labkit new | 创建新项目|
+|labkit calc |提交计算项目|
+|labkit new_module | 创建新模块|
 
 labkit的配置文件labkit.ini管理labkit自身的相关事宜.
 
 ----
 
 ### 输入输出
-输入是yaml格式的算法文件, 包含算法步骤, 以及参数. 运行用labkit push, 输出结果每步在各个文件夹下.
+输入是yaml格式的算法文件, 包含算法步骤, 以及参数. 运行用labkit calc_project, 输出结果每步在各个文件夹下.
 
-用yaml格式写好你要计算的体系和算法, 用labkit push命令提交, 然后等待结果
+<!-- 用yaml格式写好你要计算的体系和算法, 用labkit push命令提交, 然后等待结果 -->
 
 输入分两部分, 一部分是算法描述, 一部分是参数配置.
 
