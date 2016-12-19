@@ -1,19 +1,42 @@
-
+labkit 命令行使用指南
 ---------------------------
 
+
+### 介绍
+
+labkit可以使用一张图来表示:
+
+![](images/labkit立方体示意图.svg)
+
+中的缩写解释如下:
+vi: vector interpreter 并行计算框架,
+ms: molecular simulation 分子模拟模块, 目前包括构型操作, 量化计算等我们实验室的氨基酸和多肽计算需要的内容.
+
+基本功能原型和模块结构: 站在vi上的模块, 例如ms等, 可以被vi并行解释执行, 然后是其他不用并行的内容例如文档, 样例, 网站, 所有内容打包在一起叫做labkit
+
+workplace
+
 ### 安装
+运行命令
+, 得到目录结构, 程序文件如下,
+
+
+
+ 在workplace里面工作, 配置文件在workplace/config里面. 配置: 配置服务器地址等.
+
 ```
 cd labkit & ./install.sh
 ```
+
 
 启动labkit的网站
 ```
 ./show.sh
 ```
 
-### 配置, 启动
-终端下面敲 `labkit --help` 可以获得帮助
+### 运行
 
+终端下面敲 `labkit --help` 可以获得帮助
 ```
 前端上启动 labkit front
 节点上启动 labkit worker
@@ -22,11 +45,19 @@ cd labkit & ./install.sh
 
 前端上运行`labkit pbs_start`同时启动front和worker并且通过pbs管理.
 
+labkit help
+labkit service  xxx start/stop
+labkit new_project
+labkit calc_project
+labkit new_module
+
 labkit的配置文件labkit.ini管理labkit自身的相关事宜.
 
 ----
 
-### 输入, 标准
+### 输入输出
+输入是yaml格式的算法文件, 包含算法步骤, 以及参数. 运行用labkit push, 输出结果每步在各个文件夹下.
+
 用yaml格式写好你要计算的体系和算法, 用labkit push命令提交, 然后等待结果
 
 输入分两部分, 一部分是算法描述, 一部分是参数配置.
