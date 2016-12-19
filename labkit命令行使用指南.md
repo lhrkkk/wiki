@@ -503,7 +503,7 @@ INNER_RESIDUE_BONDING_TEMPLATE:
 ----
 
 ### 运行
-通过`labkit push`提交运行
+通过`labkit calc`提交运行
 
 ----
 
