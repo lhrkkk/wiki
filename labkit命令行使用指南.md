@@ -14,15 +14,16 @@ ms: molecular simulation 分子模拟模块, 目前包括构型操作, 量化计
 
 基本功能原型和模块结构: 站在vi上的模块, 例如ms等, 可以被vi并行解释执行, 然后是其他不用并行的内容例如文档, 样例, 网站, 所有内容打包在一起叫做labkit
 
-workplace
+workplace是工作空间, 我们在workplace目录里面工作.
 
 ### 安装labkit
 从零开始安装labkit.
 Linux命令行下, 复制并运行命令 `curl -L  https://git.ustclug.org/lhrkkk/labkit/raw/master/install_labkit_from_zero.sh | bash` 即可下载并安装labkit
 
-得到目录结构, 程序文件如下
+得到labkit目录
 
-在workplace里面工作, 配置文件在workplace/config里面. 配置: 配置服务器地址等.
+配置文件在default_config里面. 配置: 配置服务器地址等. 在配置文件目录下面有readme说明.
+
 
 <!--
 ```
@@ -51,22 +52,22 @@ labkit有如下命令:
 
 |命令 |功能|
 | --------   | -----:   | :----: |
-|labkit help |获得帮助|
+|labkit --help |获得帮助|
 |labkit service  xxx start/stop | 启动和停止labkit的服务 |
 |labkit new | 创建新项目|
 |labkit calc |提交计算项目|
 |labkit new_module | 创建新模块|
 
-labkit的配置文件labkit.ini管理labkit自身的相关事宜.
+labkit的配置文件default_confit/vi/labkit.conf管理labkit自身的相关事宜.
 
 ----
 
 ### 输入输出
-输入是yaml格式的算法文件, 包含算法步骤, 以及参数. 运行用labkit calc_project, 输出结果每步在各个文件夹下.
+输入是yaml格式的算法文件, 包含算法步骤, 以及参数. 运行用labkit calc, 输出结果每步在result文件夹下.
 
 <!-- 用yaml格式写好你要计算的体系和算法, 用labkit push命令提交, 然后等待结果 -->
 
-输入分两部分, 一部分是算法描述, 一部分是参数配置.
+输入文件样例:
 
 ```yaml
 # rule:  # :分割的是字典, 没有参数的键值会被忽略, 可以用来起名字
@@ -503,7 +504,7 @@ INNER_RESIDUE_BONDING_TEMPLATE:
 ----
 
 ### 运行
-通过`labkit calc`提交运行
+通过`labkit calc`提交运行, 在result文件夹下面看到结果
 
 ----
 
