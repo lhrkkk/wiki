@@ -1,6 +1,7 @@
 
-### 介绍
+请首先阅读[labkit命令行使用指南](), 初步了解labkit的模块结构, 输入输出. 这里会从系统的角度简洁的叙述labkit的架构.
 
+## 总体架构
 labkit可以使用一张图来表示:
 
 ![][image-1]
@@ -9,10 +10,62 @@ labkit可以使用一张图来表示:
 vi: vector interpreter 并行计算框架,
 ms: molecular simulation 分子模拟模块, 目前包括构型操作, 量化计算等我们实验室的氨基酸和多肽计算需要的内容.
 
-基本功能原型和模块结构: 站在vi上的模块, 例如ms等, 可以被vi并行解释执行, 然后是其他不用并行的内容例如文档, 样例, 网站, 所有内容打包在一起叫做labkit
+基本功能原型和模块结构: 站在vi上的模块, 例如ms等, 可以被vi并行解释执行, 然后是其他不用并行的内容例如文档, 样例, 网站, 所有内容打包在一起叫做labkit.
+可以看到, labkit包括通用模块, vi, 计算模块.
 
+具体上, labkit按照以下目录结构组织, 以下列出主要目录
+
+```
+.
+├── packages
+│   ├── general
+│   ├── ms
+│   └── vi
+├── frontend
+│   ├── gititwiki
+│   └── lf
+├── bin
+├── sbin
+├── databank
+├── wiki
+├── workplace
+└── 其他
+```
+
+
+packages目录包含所有python包, 是labkit的后端.
+frontend包括网站, wiki
+bin, sbin存放可执行文件
+databank, wiki是存放数据库数据和wiki的具体位置.
+此外还包括docs, example, backup等其他的组成.
 workplace是工作空间, 我们在workplace目录里面工作.
 
+labkit的设计要求: 对于求解一个问题, 给定需要的信息即可
+
+labkit有多个组成部分, 一个中枢连接一切
+
+以下详细描述规定labkit内部结构
+#### 包, packages
+labkit后端的所有的python包分三种类型: 以general为例的独立存在的包, vi并行器. 以及可以被vi并行执行的包.
+labkit所有的包都并排放在packages目录下.
+
+除此之外, 你还可以使用本地包. 在`~/.labkit` 目录下的packages目录中可以存放本地包. 它们可以作为额外的模块使用, 类似插件. 可以在这个目录中开发和使用自己的本地包而不影响labkit版本库.
+当然, 也可以安装一个包到virtualenv中. 它们也是可以被调用的.
+
+### vi
+vi的步骤
+
+vi使用yaml作为表示, 进行并行化. 
+数据库
+
+### ms
+ms包含构型操作和计算的函数
+
+### general
+#### gy
+
+
+---- 
 ### 安装labkit
 从零开始安装labkit.
 Linux命令行下, 复制并运行命令 `curl -L  https://git.ustclug.org/lhrkkk/labkit/raw/master/install_labkit_from_zero.sh | bash` 即可下载并安装labkit
@@ -31,8 +84,6 @@ cd labkit & ./install.sh
 ```
 ./show.sh
 ``` -->
-
-也可以到[labkit的代码仓库][1], 用`git clone --recursive git@git.ustclug.org:lhrkkk/labkit.git` 命令下载labkit, 然后阅读并运行install.sh手动安装.
 
 ### 运行
 
@@ -59,7 +110,7 @@ labkit有如下命令:
 
 labkit的配置文件default_confit/vi/labkit.conf管理labkit自身的相关事宜.
 
-----
+---- 
 
 ### 输入输出
 输入是yaml格式的算法文件, 包含算法步骤, 以及参数. 运行用labkit calc, 输出结果每步在result文件夹下.
@@ -82,9 +133,9 @@ labkit的配置文件default_confit/vi/labkit.conf管理labkit自身的相关事
 # 正文样例:
 algorithm:
 - sys:  # 只是名字, 忽略
-	- sample.generate: {ensemble_name: cggg}  # 调用sample.generate模块的run函数, 传入参数列表是{ensemble_name: cggg}
-	- compute.gaussian: {method: "hf/3-21G\* opt"} # 同上
-	- compute.gaussian: {method: hf, energy_cut: 10} # 同上
+    - sample.generate: {ensemble_name: cggg}  # 调用sample.generate模块的run函数, 传入参数列表是{ensemble_name: cggg}
+    - compute.gaussian: {method: "hf/3-21G\* opt"} # 同上
+    - compute.gaussian: {method: hf, energy_cut: 10} # 同上
 
 
 config:
@@ -114,8 +165,8 @@ BACKBONE_TEMPLATE:
 
 
 SIDE_TEMPLATE:
-	# - [ CYS, 1, CHI1, [0,120,240]]
-	-[]
+    # - [ CYS, 1, CHI1, [0,120,240]]
+    -[]
 
 # USE_BOND_TEMPLATE: template_test.xyz3
 
@@ -124,49 +175,49 @@ SIDE_TEMPLATE:
 DIHEDRAL_DEFINITION:
 # [DIHEDRAL_NAME, RESIDUE,   ATOM1, ATOM2, ATOM3, ATOM4 ]
 
-	# - [PSI,        ARG,        N,   CA,   C,   N  ]
-	# - [PHI,        ARG,        C,    N,  CA,   C  ]
+    # - [PSI,        ARG,        N,   CA,   C,   N  ]
+    # - [PHI,        ARG,        C,    N,  CA,   C  ]
 
-	- [CHI1,        ARG,        N,   CA,   CB,   CG  ]
-	- [CHI1,        ASN,        N,   CA,   CB,   CG  ]
-	- [CHI1,        ASP,        N,   CA,   CB,   CG  ]
-	- [CHI1,        CYS,        N,   CA,   CB,   SG  ]
-	- [CHI1,        GLN,        N,   CA,   CB,   CG  ]
-	- [CHI1,        GLU,        N,   CA,   CB,   CG  ]
-	- [CHI1,        HIS,        N,   CA,   CB,   CG  ]
-	- [CHI1,        ILE,        N,   CA,   CB,   CG1 ]
-	- [CHI1,        LEU,        N,   CA,   CB,   CG  ]
-	- [CHI1,        LYS,        N,   CA,   CB,   CG  ]
-	- [CHI1,        MET,        N,   CA,   CB,   CG  ]
-	- [CHI1,        PHE,        N,   CA,   CB,   CG  ]
-	- [CHI1,        PRO,        N,   CA,   CB,   CG  ]
-	- [CHI1,        SER,        N,   CA,   CB,   OG  ]
-	- [CHI1,        THR,        N,   CA,   CB,   OG1 ]
-	- [CHI1,        TRP,        N,   CA,   CB,   CG  ]
-	- [CHI1,        TYR,        N,   CA,   CB,   CG  ]
-	- [CHI1,        VAL,        N,   CA,   CB,   CG1 ]
-	- [CHI2,        ARG,        CA,  CB,   CG,   CD  ]
-	- [CHI2,        ASN,        CA,  CB,   CG,   OD1 ]
-	- [CHI2,        ASP,        CA,  CB,   CG,   OD1 ]
-	- [CHI2,        GLN,        CA,  CB,   CG,   CD  ]
-	- [CHI2,        GLU,        CA,  CB,   CG,   CD  ]
-	- [CHI2,        HIS,        CA,  CB,   CG,   ND1 ]
-	- [CHI2,        ILE,        CA,  CB,   CG1,  CD  ]
-	- [CHI2,        LEU,        CA,  CB,   CG,   CD1 ]
-	- [CHI2,        LYS,        CA,  CB,   CG,   CD  ]
-	- [CHI2,        MET,        CA,  CB,   CG,   SD  ]
-	- [CHI2,        PHE,        CA,  CB,   CG,   CD1 ]
-	- [CHI2,        PRO,        CA,  CB,   CG,   CD  ]
-	- [CHI2,        TRP,        CA,  CB,   CG,   CD1 ]
-	- [CHI2,        TYR,        CA,  CB,   CG,   CD1 ]
-	- [CHI3,        ARG,        CB,  CG,   CD,   NE  ]
-	- [CHI3,        GLN,        CB,  CG,   CD,   OE1 ]
-	- [CHI3,        GLU,        CB,  CG,   CD,   OE1 ]
-	- [CHI3,        LYS,        CB,  CG,   CD,   CE  ]
-	- [CHI3,        MET,        CB,  CG,   SD,   CE  ]
-	- [CHI4,        ARG,        CG,  CD,   NE,   CZ  ]
-	- [CHI4,        LYS,        CG,  CD,   CE,   NZ  ]
-	- [CHI5,        ARG,        CD,  NE,   CZ,   NH1 ]
+    - [CHI1,        ARG,        N,   CA,   CB,   CG  ]
+    - [CHI1,        ASN,        N,   CA,   CB,   CG  ]
+    - [CHI1,        ASP,        N,   CA,   CB,   CG  ]
+    - [CHI1,        CYS,        N,   CA,   CB,   SG  ]
+    - [CHI1,        GLN,        N,   CA,   CB,   CG  ]
+    - [CHI1,        GLU,        N,   CA,   CB,   CG  ]
+    - [CHI1,        HIS,        N,   CA,   CB,   CG  ]
+    - [CHI1,        ILE,        N,   CA,   CB,   CG1 ]
+    - [CHI1,        LEU,        N,   CA,   CB,   CG  ]
+    - [CHI1,        LYS,        N,   CA,   CB,   CG  ]
+    - [CHI1,        MET,        N,   CA,   CB,   CG  ]
+    - [CHI1,        PHE,        N,   CA,   CB,   CG  ]
+    - [CHI1,        PRO,        N,   CA,   CB,   CG  ]
+    - [CHI1,        SER,        N,   CA,   CB,   OG  ]
+    - [CHI1,        THR,        N,   CA,   CB,   OG1 ]
+    - [CHI1,        TRP,        N,   CA,   CB,   CG  ]
+    - [CHI1,        TYR,        N,   CA,   CB,   CG  ]
+    - [CHI1,        VAL,        N,   CA,   CB,   CG1 ]
+    - [CHI2,        ARG,        CA,  CB,   CG,   CD  ]
+    - [CHI2,        ASN,        CA,  CB,   CG,   OD1 ]
+    - [CHI2,        ASP,        CA,  CB,   CG,   OD1 ]
+    - [CHI2,        GLN,        CA,  CB,   CG,   CD  ]
+    - [CHI2,        GLU,        CA,  CB,   CG,   CD  ]
+    - [CHI2,        HIS,        CA,  CB,   CG,   ND1 ]
+    - [CHI2,        ILE,        CA,  CB,   CG1,  CD  ]
+    - [CHI2,        LEU,        CA,  CB,   CG,   CD1 ]
+    - [CHI2,        LYS,        CA,  CB,   CG,   CD  ]
+    - [CHI2,        MET,        CA,  CB,   CG,   SD  ]
+    - [CHI2,        PHE,        CA,  CB,   CG,   CD1 ]
+    - [CHI2,        PRO,        CA,  CB,   CG,   CD  ]
+    - [CHI2,        TRP,        CA,  CB,   CG,   CD1 ]
+    - [CHI2,        TYR,        CA,  CB,   CG,   CD1 ]
+    - [CHI3,        ARG,        CB,  CG,   CD,   NE  ]
+    - [CHI3,        GLN,        CB,  CG,   CD,   OE1 ]
+    - [CHI3,        GLU,        CB,  CG,   CD,   OE1 ]
+    - [CHI3,        LYS,        CB,  CG,   CD,   CE  ]
+    - [CHI3,        MET,        CB,  CG,   SD,   CE  ]
+    - [CHI4,        ARG,        CG,  CD,   NE,   CZ  ]
+    - [CHI4,        LYS,        CG,  CD,   CE,   NZ  ]
+    - [CHI5,        ARG,        CD,  NE,   CZ,   NH1 ]
 
 
 
@@ -500,12 +551,12 @@ INNER_RESIDUE_BONDING_TEMPLATE:
 
 结果分析, 和计算原理是一样的, 只是运行的程序不同而已. 也可以并行化.
 
-----
+---- 
 
 ### 运行
 通过`labkit calc`提交运行, 在result文件夹下面看到结果
 
-----
+---- 
 
 ### 输出
 计算的每一步的和最终的输出都会以单独的文件夹的形式出现在当前文件夹下.
@@ -514,9 +565,9 @@ INNER_RESIDUE_BONDING_TEMPLATE:
 
 
 
-----
 
-[1]:	https://git.ustclug.org/lhrkkk/labkit
+
+
 
 [image-1]:	images/labkit%E7%AB%8B%E6%96%B9%E4%BD%93%E7%A4%BA%E6%84%8F%E5%9B%BE.svg
 [image-2]:	images/%E7%BB%93%E6%9E%9C%E6%88%AA%E5%9B%BE.png
