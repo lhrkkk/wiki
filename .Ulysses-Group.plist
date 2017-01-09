@@ -26,6 +26,16 @@
 					<integer>4</integer>
 				</dict>
 			</dict>
+			<key>Tensorflow.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>505630011.87707603</real>
+				<key>version</key>
+				<dict>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>57</integer>
+				</dict>
+			</dict>
 			<key>index.md</key>
 			<dict>
 				<key>lastModification</key>
@@ -228,6 +238,9 @@
 			<string>人月神话 - 2.md</string>
 		</array>
 		<array>
+			<string>Tensorflow.md</string>
+		</array>
+		<array>
 			<string>人月神话.md</string>
 		</array>
 		<array>
@@ -294,7 +307,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-			<integer>51</integer>
+			<integer>57</integer>
 		</dict>
 		<key>sheetOrder</key>
 		<dict>
