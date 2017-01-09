@@ -170,6 +170,30 @@
 					<integer>13</integer>
 				</dict>
 			</dict>
+			<key>人月神话 - 2.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>505629396.70389801</real>
+				<key>lastModification</key>
+				<real>505629396.70389801</real>
+				<key>version</key>
+				<dict>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>51</integer>
+				</dict>
+			</dict>
+			<key>人月神话.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>505629117.42058903</real>
+				<key>version</key>
+				<dict>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>45</integer>
+				</dict>
+			</dict>
 			<key>各种计算方法比较.md</key>
 			<dict>
 				<key>explicitUnassignment</key>
@@ -200,6 +224,12 @@
 	</dict>
 	<key>sheetClusters</key>
 	<array>
+		<array>
+			<string>人月神话 - 2.md</string>
+		</array>
+		<array>
+			<string>人月神话.md</string>
+		</array>
 		<array>
 			<string>labkit开发工具, 版本管理和合作开发的基础知识.md</string>
 		</array>
@@ -264,7 +294,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-			<integer>42</integer>
+			<integer>51</integer>
 		</dict>
 		<key>sheetOrder</key>
 		<dict>
