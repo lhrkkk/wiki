@@ -1,6 +1,6 @@
 
 完整开发流程, 要做的步骤
-----
+---- 
 
 
 ## labkit模块开发
@@ -20,28 +20,32 @@ from general import gs
 log=gs.get_logger(__name__,debug=False)
 
 def test():
-	pass
+    pass
 
 
 def run(args):
-	return True
+    return True
 
 def selfrun(args={}):
-	import labkit.init_gs
-	from general.interpreter.loader import callrun
-	callrun(__file__,args)
+    import labkit.init_gs
+    from general.interpreter.loader import callrun
+    callrun(__file__,args)
 if __name__ == '__main__':
-	# test()
-	selfrun()
+    # test()
+    selfrun()
 
 ```
+
+
+labkit模块=文件. 
+todo: 需要设置parameters和definition. labkit生成项目模板的时候会把所有parameters提出来. 执行的时候, 会根据definition执行map还是reduce.
 
 调用模块的时候, 就会调用run函数. 作用于向量的每一个元素.
 
 调试执行之后, 编写文档,
 
 
-----
+---- 
 
 ## labkit与软件工程
 其实之前调整结构重命名的时候有想过叫labstudio, 一个studio什么东西都在里面了, 你在里面玩就行了. 之所以不叫labstudio, 是因为它提供的最终是一个函数库给你用的, 你也可以开发, 而不是只是仅仅使用. 你在里面开发也是很便捷的, 它是为了让开发者便捷而设计的. 所以叫labkit

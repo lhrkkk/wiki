@@ -159,49 +159,43 @@
 			<key>my-gitit.conf</key>
 			<dict>
 				<key>lastModification</key>
-				<real>505462149.53350502</real>
+				<real>510480055.53295898</real>
 				<key>version</key>
 				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>1</integer>
 					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-					<integer>4</integer>
+					<integer>71</integer>
 				</dict>
 			</dict>
 			<key>task_example.yaml</key>
 			<dict>
 				<key>lastModification</key>
-				<real>505462149.53350401</real>
+				<real>510480055.53294498</real>
 				<key>version</key>
 				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>1</integer>
 					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-					<integer>4</integer>
+					<integer>71</integer>
 				</dict>
 			</dict>
-			<key>test.md</key>
+			<key>try.md</key>
 			<dict>
 				<key>explicitUnassignment</key>
 				<true/>
 				<key>firstUnassignment</key>
-				<real>505462236.62617397</real>
+				<real>510658418.18896401</real>
 				<key>lastModification</key>
-				<real>505462236.62617397</real>
+				<real>510658418.18896401</real>
 				<key>version</key>
 				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
 					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-					<integer>13</integer>
-				</dict>
-			</dict>
-			<key>人月神话 - 2.md</key>
-			<dict>
-				<key>explicitUnassignment</key>
-				<true/>
-				<key>firstUnassignment</key>
-				<real>505629396.70389801</real>
-				<key>lastModification</key>
-				<real>505629396.70389801</real>
-				<key>version</key>
-				<dict>
-					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-					<integer>51</integer>
+					<integer>72</integer>
 				</dict>
 			</dict>
 			<key>人月神话.md</key>
@@ -212,20 +206,6 @@
 				<dict>
 					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
 					<integer>45</integer>
-				</dict>
-			</dict>
-			<key>各种计算方法比较.md</key>
-			<dict>
-				<key>explicitUnassignment</key>
-				<true/>
-				<key>firstUnassignment</key>
-				<real>505462355.62333798</real>
-				<key>lastModification</key>
-				<real>505462355.62333798</real>
-				<key>version</key>
-				<dict>
-					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-					<integer>18</integer>
 				</dict>
 			</dict>
 			<key>实验室数据库databank开发指南.md</key>
@@ -250,12 +230,12 @@
 			</dict>
 		</dict>
 		<key>sheetOrder</key>
-		<real>505461230.79428101</real>
+		<real>510658429.59501302</real>
 	</dict>
 	<key>sheetClusters</key>
 	<array>
 		<array>
-			<string>人月神话 - 2.md</string>
+			<string>try.md</string>
 		</array>
 		<array>
 			<string>机器学习.md</string>
@@ -283,9 +263,6 @@
 		</array>
 		<array>
 			<string>Gitit User’s Guide.md</string>
-		</array>
-		<array>
-			<string>各种计算方法比较.md</string>
 		</array>
 		<array>
 			<string>task_example.yaml</string>
@@ -320,9 +297,6 @@
 		<array>
 			<string>index.md</string>
 		</array>
-		<array>
-			<string>test.md</string>
-		</array>
 	</array>
 	<key>sheetOrder</key>
 	<string>modificationDate</string>
@@ -332,13 +306,17 @@
 	<dict>
 		<key>sheetClusters</key>
 		<dict>
+			<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+			<integer>2</integer>
+			<key>726699DC-0029-4F06-B956-6D9508432702</key>
+			<integer>1</integer>
 			<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-			<integer>67</integer>
+			<integer>72</integer>
 		</dict>
 		<key>sheetOrder</key>
 		<dict>
 			<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 </dict>
