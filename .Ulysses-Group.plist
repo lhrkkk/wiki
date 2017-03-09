@@ -6,6 +6,20 @@
 	<dict>
 		<key>sheetClusters</key>
 		<dict>
+			<key>GIT USAGE NOTE.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510664844.938164</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>97</integer>
+				</dict>
+			</dict>
 			<key>Gitit User’s Guide.md</key>
 			<dict>
 				<key>lastModification</key>
@@ -46,6 +60,62 @@
 					<integer>58</integer>
 				</dict>
 			</dict>
+			<key>buildout.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510676631.27723801</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>122</integer>
+				</dict>
+			</dict>
+			<key>git submodule.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510664794.58441901</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>95</integer>
+				</dict>
+			</dict>
+			<key>git.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510664854.22620201</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>101</integer>
+				</dict>
+			</dict>
+			<key>gy.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510664385.59924901</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>81</integer>
+				</dict>
+			</dict>
 			<key>index.md</key>
 			<dict>
 				<key>lastModification</key>
@@ -66,6 +136,84 @@
 					<integer>4</integer>
 				</dict>
 			</dict>
+			<key>labkit - 2.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>510744392.783113</real>
+				<key>lastModification</key>
+				<real>510744392.783113</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>6</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>148</integer>
+				</dict>
+			</dict>
+			<key>labkit virtualenv.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>510664743.12621403</real>
+				<key>lastModification</key>
+				<real>510664790.10187101</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>94</integer>
+				</dict>
+			</dict>
+			<key>labkit 描述.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510744410.14084297</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>6</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>149</integer>
+				</dict>
+			</dict>
+			<key>labkit 文档编辑.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510667495.59429598</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>118</integer>
+				</dict>
+			</dict>
+			<key>labkit 测试.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510666828.970469</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>111</integer>
+				</dict>
+			</dict>
 			<key>labkit 演示 copy.md</key>
 			<dict>
 				<key>lastModification</key>
@@ -84,6 +232,20 @@
 				<dict>
 					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
 					<integer>4</integer>
+				</dict>
+			</dict>
+			<key>labkit's virtualenv.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510664547.430453</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>90</integer>
 				</dict>
 			</dict>
 			<key>labkit前端开发指南.md</key>
@@ -116,14 +278,18 @@
 					<integer>4</integer>
 				</dict>
 			</dict>
-			<key>labkit开发工具, 版本管理和合作开发的基础知识.md</key>
+			<key>labkit开发工具, 版本管理和合作开发的基础知识(流程).md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>505464077.07676798</real>
+				<real>510746164.83099198</real>
 				<key>version</key>
 				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>6</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
 					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-					<integer>37</integer>
+					<integer>155</integer>
 				</dict>
 			</dict>
 			<key>labkit架构.md</key>
@@ -144,6 +310,20 @@
 				<dict>
 					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
 					<integer>41</integer>
+				</dict>
+			</dict>
+			<key>ly.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510664390.153108</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>85</integer>
 				</dict>
 			</dict>
 			<key>markdown语法.md</key>
@@ -168,6 +348,38 @@
 					<integer>71</integer>
 				</dict>
 			</dict>
+			<key>python setup.py.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510666803.09815198</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>105</integer>
+				</dict>
+			</dict>
+			<key>python打包教程.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>510664518.75679302</real>
+				<key>lastModification</key>
+				<real>510664790.10186797</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>2</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>94</integer>
+				</dict>
+			</dict>
 			<key>task_example.yaml</key>
 			<dict>
 				<key>lastModification</key>
@@ -185,9 +397,23 @@
 				<key>explicitUnassignment</key>
 				<true/>
 				<key>firstUnassignment</key>
-				<real>510658418.18896401</real>
+				<real>510740987.03338498</real>
 				<key>lastModification</key>
-				<real>510658418.18896401</real>
+				<real>510740987.03338498</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>6</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>134</integer>
+				</dict>
+			</dict>
+			<key>yaml.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510664241.41982299</real>
 				<key>version</key>
 				<dict>
 					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
@@ -195,7 +421,7 @@
 					<key>726699DC-0029-4F06-B956-6D9508432702</key>
 					<integer>1</integer>
 					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-					<integer>72</integer>
+					<integer>74</integer>
 				</dict>
 			</dict>
 			<key>人月神话.md</key>
@@ -206,6 +432,24 @@
 				<dict>
 					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
 					<integer>45</integer>
+				</dict>
+			</dict>
+			<key>团队协作指南 (core's conflicted copy 2017-03-09).md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>510744366.86421502</real>
+				<key>lastModification</key>
+				<real>510744382.25202501</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>6</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>145</integer>
 				</dict>
 			</dict>
 			<key>实验室数据库databank开发指南.md</key>
@@ -228,6 +472,56 @@
 					<integer>66</integer>
 				</dict>
 			</dict>
+			<key>版本和协作指南.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510746277.01279497</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>6</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>159</integer>
+				</dict>
+			</dict>
+			<key>获取 labkit 之后 (core's conflicted copy 2017-03-09).md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>510741761.82462603</real>
+				<key>lastModification</key>
+				<real>510744382.25202298</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>6</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>145</integer>
+				</dict>
+			</dict>
+			<key>获取 labkit 之后.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>510741761.82392001</real>
+				<key>lastModification</key>
+				<real>510741761.82392001</real>
+				<key>version</key>
+				<dict>
+					<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
+					<integer>6</integer>
+					<key>726699DC-0029-4F06-B956-6D9508432702</key>
+					<integer>1</integer>
+					<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
+					<integer>139</integer>
+				</dict>
+			</dict>
 		</dict>
 		<key>sheetOrder</key>
 		<real>510658429.59501302</real>
@@ -236,6 +530,45 @@
 	<array>
 		<array>
 			<string>try.md</string>
+		</array>
+		<array>
+			<string>获取 labkit 之后.md</string>
+		</array>
+		<array>
+			<string>labkit - 2.md</string>
+		</array>
+		<array>
+			<string>版本和协作指南.md</string>
+		</array>
+		<array>
+			<string>labkit 描述.md</string>
+		</array>
+		<array>
+			<string>buildout.md</string>
+		</array>
+		<array>
+			<string>labkit 文档编辑.md</string>
+		</array>
+		<array>
+			<string>labkit 测试.md</string>
+		</array>
+		<array>
+			<string>python setup.py.md</string>
+		</array>
+		<array>
+			<string>git.md</string>
+		</array>
+		<array>
+			<string>git submodule.md</string>
+		</array>
+		<array>
+			<string>ly.md</string>
+		</array>
+		<array>
+			<string>gy.md</string>
+		</array>
+		<array>
+			<string>labkit's virtualenv.md</string>
 		</array>
 		<array>
 			<string>机器学习.md</string>
@@ -250,7 +583,7 @@
 			<string>人月神话.md</string>
 		</array>
 		<array>
-			<string>labkit开发工具, 版本管理和合作开发的基础知识.md</string>
+			<string>labkit开发工具, 版本管理和合作开发的基础知识(流程).md</string>
 		</array>
 		<array>
 			<string>labkit架构.md</string>
@@ -297,6 +630,24 @@
 		<array>
 			<string>index.md</string>
 		</array>
+		<array>
+			<string>GIT USAGE NOTE.md</string>
+		</array>
+		<array>
+			<string>yaml.md</string>
+		</array>
+		<array>
+			<string>python打包教程.md</string>
+		</array>
+		<array>
+			<string>labkit virtualenv.md</string>
+		</array>
+		<array>
+			<string>获取 labkit 之后 (core's conflicted copy 2017-03-09).md</string>
+		</array>
+		<array>
+			<string>团队协作指南 (core's conflicted copy 2017-03-09).md</string>
+		</array>
 	</array>
 	<key>sheetOrder</key>
 	<string>modificationDate</string>
@@ -307,11 +658,11 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>69127AFE-C368-48B1-AB7D-E3BF94EBE98A</key>
-			<integer>2</integer>
+			<integer>6</integer>
 			<key>726699DC-0029-4F06-B956-6D9508432702</key>
 			<integer>1</integer>
 			<key>ed68c29dac2836f47d980cbc97c05284678fc516299f321e8754ba0fdde28f49</key>
-			<integer>72</integer>
+			<integer>160</integer>
 		</dict>
 		<key>sheetOrder</key>
 		<dict>

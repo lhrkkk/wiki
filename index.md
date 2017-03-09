@@ -25,7 +25,8 @@ labkit包括一个在linux系统上, 使用命令行方式运行的计算框架,
 
 ### 想要进一步了解和开发labkit, 请阅读开发者手册:
 首先你要阅读理解以下两篇基础指南. 包括
-[labkit架构]() 和 [labkit开发工具, 版本管理和合作开发的基础知识]()
+[labkit架构]() 和 [版本和协作指南]()
+
 
 然后根据你的要开发的功能, 阅读以下开发指南进行开发.
 
@@ -42,15 +43,16 @@ labkit包括一个在linux系统上, 使用命令行方式运行的计算框架,
 ---- 
 
 以前的一些文档备用:
+[labkit开发工具, 版本管理和合作开发的基础知识(流程)]()
 
 [introduction of labkit]()
 
 [labkit 演示]()
 
-[labkit的组会ppt][15]
+[labkit的组会ppt][16]
 
 [4]:	http://210.45.66.91:3450
 [5]:	http://localhost
 [11]:	http://labkit.readthedocs.io/en/latest/index.html
 [12]:	https://labkit.slack.com/signup
-[15]:	smb://210.45.66.90/
+[16]:	smb://210.45.66.90/
