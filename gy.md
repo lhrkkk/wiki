@@ -35,8 +35,11 @@ dev2: gy switch dev2 ; push;
 ### workflow
 
 [Git 工作流程总览][3]
+
 我们选择[gitlab workflow][4]
+
 关于[rebase][5]的介绍
+
 最后在同步的时候参看[Git flow][6], 但是没有 dev 分支
 
 [3]:	http://www.ruanyifeng.com/blog/2015/12/git-workflow.html
