@@ -42,7 +42,10 @@ dev2: gy switch dev2 ; push;
 
 最后在同步的时候参看[Git flow][6], 但是没有 dev 分支
 
+[http://www.jianshu.com/p/0613d8249863][7]
+
 [3]:	http://www.ruanyifeng.com/blog/2015/12/git-workflow.html
 [4]:	https://www.15yan.com/story/6yueHxcgD9Z/
 [5]:	http://www.jianshu.com/p/0613d8249863
 [6]:	http://www.ruanyifeng.com/blog/2015/08/git-use-process.html
+[7]:	http://www.jianshu.com/p/0613d8249863
