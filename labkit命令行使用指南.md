@@ -15,7 +15,7 @@ workplace是工作空间, 我们在workplace目录里面工作.
 
 ### 从零开始安装labkit
 Linux命令行下, 复制并运行命令 
-	curl -L  https://git.ustclug.org/lhrkkk/labkit/raw/master/install_labkit_from_zero.sh | bash_
+	curl -L  https://git.ustclug.org/lhrkkk/labkit/raw/master/setup/setup_labkit_from_zero.sh | bash
 即可下载并安装labkit
 
 安装后我们得到 labkit 文件夹和配置文件夹 $HOME/.labkit, 前者是 labkit 的主程序, cd 进这个目录即可激活 labkit 然后运行 labkit 相应命令, 后者用于配置labkit. 

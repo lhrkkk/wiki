@@ -1,7 +1,7 @@
 # buildout 项目的.gitingore
 .Ulysses-Group.plist
 .Ulysses-favorites.plist
-
+gitit-users
 *.pyc
 *.pyo
 .installed.cfg

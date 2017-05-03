@@ -2,7 +2,7 @@
 ## 安装labkit
 ### 从零开始安装labkit
 Linux命令行下, 复制并运行命令 
-	curl -L  https://git.ustclug.org/lhrkkk/labkit/raw/master/install_labkit_from_zero.sh | bash_
+	curl -L  https://git.ustclug.org/lhrkkk/labkit/raw/master/setup/setup_labkit_from_zero.sh | bash
 
 即可下载并安装labkit
 
